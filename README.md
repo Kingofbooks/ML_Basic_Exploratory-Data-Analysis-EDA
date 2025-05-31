@@ -1,39 +1,32 @@
 # ML_Basic_Exploratory-Data-Analysis-EDA
 📁 Task: Data Exploration, Visualization & Pattern Discovery
 ✅ Tasks Completed:
-Generated Summary Statistics:
+1. Generated Summary Statistics:
 
-Used .describe() to compute basic metrics like mean, median, standard deviation, min, and max for numerical features.
+-> Used .describe() to compute basic metrics like mean, median, standard deviation, min, and max for numerical features.
 
-Visualized Distributions and Outliers:
+2. Visualized Distributions and Outliers:
 
-Plotted histograms and boxplots for numeric columns (Age, Fare, etc.).
+-> Plotted histograms and boxplots for numeric columns (Age, Fare, etc.).
+-> Identified skewness and outliers visually.
+-> Removed outliers using IQR (Interquartile Range) method.
 
-Identified skewness and outliers visually.
+3. Explored Feature Relationships:
 
-Removed outliers using IQR (Interquartile Range) method.
+-> Created a pairplot to observe interactions among features.
+-> Built a correlation heatmap to quantify the strength of relationships between numeric variables.
 
-Explored Feature Relationships:
+4. Analyzed Patterns & Trends:
 
-Created a pairplot to observe interactions among features.
+-> Grouped passengers by Age bins and computed average survival rate.
+-> Visualized the relationship between AgeBin and Survived using seaborn.barplot.
 
-Built a correlation heatmap to quantify the strength of relationships between numeric variables.
-
-Analyzed Patterns & Trends:
-
-Grouped passengers by Age bins and computed average survival rate.
-
-Visualized the relationship between AgeBin and Survived using seaborn.barplot.
-
-Derived Feature-Level Insights:
-
-Young children had higher survival rates.
-
-First-class passengers (Pclass = 1) were more likely to survive.
-
-Higher fares were correlated with increased survival probability.
+5. Derived Feature-Level Insights:
+   
+-> Young children had higher survival rates.
+-> First-class passengers (Pclass = 1) were more likely to survive.
+-> Higher fares were correlated with increased survival probability.
 
 📊 Tools & Libraries Used:
-pandas, numpy for data manipulation
-
-matplotlib.pyplot, seaborn for visualization
+-> pandas, numpy for data manipulation
+-> matplotlib.pyplot, seaborn for visualization
