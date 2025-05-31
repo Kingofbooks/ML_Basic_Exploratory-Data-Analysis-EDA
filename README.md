@@ -1,6 +1,9 @@
 # ML_Basic_Exploratory-Data-Analysis-EDA
+
 📁 Task: Data Exploration, Visualization & Pattern Discovery
+
 ✅ Tasks Completed:
+
 1. Generated Summary Statistics:
 
 -> Used .describe() to compute basic metrics like mean, median, standard deviation, min, and max for numerical features.
